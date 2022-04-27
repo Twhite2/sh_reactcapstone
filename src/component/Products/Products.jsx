@@ -1,5 +1,4 @@
 import React from 'react'
-// import ProductCard from './ProductCard'
 import './Products.css'
 import spagh from '../img/spagh.jpg'
 
@@ -13,68 +12,71 @@ const Products = () => {
           <div className = "product-card">
             <img src={spagh} alt="" />
       
-            <div>
-              <h1>Product Name</h1>
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
               <p>$10.00</p>
             </div>
 
           </div>
-
           <div className = "product-card">
             <img src={spagh} alt="" />
       
-            <div>
-              <h1>Product Name</h1>
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
               <p>$10.00</p>
             </div>
 
           </div>
-
           <div className = "product-card">
             <img src={spagh} alt="" />
       
-            <div>
-              <h1>Product Name</h1>
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
               <p>$10.00</p>
             </div>
 
           </div>
-
           <div className = "product-card">
             <img src={spagh} alt="" />
       
-            <div>
-              <h1>Product Name</h1>
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
               <p>$10.00</p>
             </div>
 
           </div>
-
           <div className = "product-card">
             <img src={spagh} alt="" />
       
-            <div>
-              <h1>Product Name</h1>
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
               <p>$10.00</p>
             </div>
 
           </div>
-
           <div className = "product-card">
             <img src={spagh} alt="" />
       
-            <div>
-              <h1>Product Name</h1>
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
               <p>$10.00</p>
             </div>
 
           </div>
-
           <div className = "product-card">
             <img src={spagh} alt="" />
       
-            <div>
-              <h1>Product Name</h1>
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
+              <p>$10.00</p>
+            </div>
+
+          </div>
+          <div className = "product-card">
+            <img src={spagh} alt="" />
+      
+            <div className='product-desc'>
+              <h1>Stir Fry</h1>
               <p>$10.00</p>
             </div>
 
@@ -82,8 +84,9 @@ const Products = () => {
 
         </div>
 
-        {/* <ProductCard /> */}
       </div>
+
+      
     </section>
   )
 }

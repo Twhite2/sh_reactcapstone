@@ -1,9 +1,10 @@
+
+
 .nav-bar{
   display: flex;
   flex-direction: row;
   justify-content:  space-between;
   align-items: center;
-  /* background-color:  red; */
   width: 80%;
   margin: 20px auto;
 }
