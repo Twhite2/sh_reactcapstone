@@ -5,9 +5,13 @@
   align-items: center;
   /* background-color:  red; */
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
 }
 
+.logo{
+  font-size: 35px;
+  text-decoration: none;
+}
 .nav-menu{
   text-decoration:  none;
 }

@@ -4,6 +4,7 @@ import Home from './component/Home/Home'
 import About from './component/About/About'
 import Products from './component/Products/Products'
 import Contact from './component/Contact/Contact'
+import Footer from './component/Footer/Footer'
 import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <div>
 
       <Navbar />
+      
 
       <Routes>
         <Route path="/" exact element={<Home />} />
@@ -18,6 +20,8 @@ const App = () => {
         <Route path="/Products" element={<Products />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+
+      <Footer />
 
     </div>
   )
